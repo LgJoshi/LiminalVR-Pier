@@ -70,7 +70,7 @@ Material:
     - _RotationAngle: 0
     - _SeaFoamTile: 1
     - _Smoothness: 0.8
-    - _WaveHeight: 0.75
+    - _WaveHeight: 2
     - _WaveSpeed: 0.05
     - _WaveTile: 0.25
     - _WorldspaceTile: 0.1
