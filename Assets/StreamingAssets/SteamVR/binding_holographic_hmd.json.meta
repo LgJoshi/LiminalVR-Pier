@@ -1,10 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Assets/StreamingAssets/SteamVR/binding_holographic_hmd.json.meta
-guid: 45c626b5c2b8bab4d97e46120af1a0fb
-========
-guid: f57fde8e4774aaa4baac94bea453cfb0
-folderAsset: yes
->>>>>>>> Stashed changes:Assets/Team Members/Nathan/Mirza Beig/Editor Extensions.meta
+guid: acdc19de9862ab14dbc77e15cf8d3d30
 DefaultImporter:
   externalObjects: {}
   userData: 
