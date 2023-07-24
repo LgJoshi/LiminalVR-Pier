@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water2
+  m_Name: Josh_mat_water
   m_Shader: {fileID: -6465566751694194690, guid: 60625def212731d498bd3cc17db7d269,
     type: 3}
   m_ShaderKeywords: 
@@ -25,13 +25,16 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2F7834BD: 1
+    - Vector1_2F7834BD: 0.7
     - Vector1_66B0736B: -0.01
-    - Vector1_77576B77: 0.001
+    - Vector1_77576B77: 0.002
+    - Vector1_97B73E54: 1
+    - Vector1_A2F82D2F: 3
+    - Vector1_B3189CCC: 0.01
     - Vector1_B9451EC: 10
-    - Vector1_D5339B48: 0.2
+    - Vector1_D5339B48: 0.3
     m_Colors:
-    - Color_D5B6D565: {r: 0.41384828, g: 0.8159649, b: 0.9433962, a: 0}
-    - Color_D9A8E5DB: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_421D7D94: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - Color_D5B6D565: {r: 0.25663045, g: 0.35151175, b: 0.6886792, a: 1}
+    - Color_D9A8E5DB: {r: 0.077, g: 0, b: 0.091, a: 1}
+    - Vector2_421D7D94: {r: 0.02, g: 0.04, b: 0, a: 0}
     - Vector2_FEDC33FA: {r: 2, g: 10, b: 0, a: 0}
