@@ -1467,11 +1467,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pier Prefab (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 1702161832694904404, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 8810005730026642380, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1526,26 +1521,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1032530876078750102, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 640164214693950038, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8275976115219813183, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563467530628753317, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bdbfbf72f8e249409eab72a1e20f3ea, type: 3}
