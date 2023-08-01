@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.5
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.05572158, g: 0.12494782, b: 0.19265217, a: 1}
+  m_IndirectSpecularColor: {r: 0.028879136, g: 0.07980854, b: 0.1305295, a: 0.5}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1709,13 +1709,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419157008}
-  m_LocalRotation: {x: 0.6538094, y: -0, z: -0, w: 0.7566593}
+  m_LocalRotation: {x: 0.605182, y: -0, z: -0, w: 0.7960872}
   m_LocalPosition: {x: -0.23022398, y: 6.62, z: 4.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 141072768}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 81.659004, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 74.484, y: 0, z: 0}
 --- !u!108 &1419157010
 Light:
   m_ObjectHideFlags: 0
@@ -1726,9 +1726,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 0
-  m_Color: {r: 0.8207547, g: 0.5969465, b: 0.503293, a: 1}
-  m_Intensity: 30
-  m_Range: 8
+  m_Color: {r: 0.8113208, g: 0.66589534, b: 0.6046636, a: 1}
+  m_Intensity: 25
+  m_Range: 9
   m_SpotAngle: 75
   m_InnerSpotAngle: 20
   m_CookieSize: 10
@@ -2231,8 +2231,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 0.7264151, g: 0.6850452, b: 0.6510324, a: 1}
-  m_Intensity: 3
+  m_Color: {r: 0.7264151, g: 0.63865757, b: 0.58250266, a: 1}
+  m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
