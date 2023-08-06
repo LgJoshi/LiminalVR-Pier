@@ -7,7 +7,7 @@ public class WaveHeight : MonoBehaviour
     public Material waterMat;
     public float height = 0.2f;
     public float increaseHeightRate = 0.1f;
-    public float stopHeight = 0.9f;
+    public float stopHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -31,11 +31,7 @@ public class WaveHeight : MonoBehaviour
             increaseHeightRate = 0f;
         }
     }
-    void WaterRise()
-    {
-        height += increaseHeightRate * Time.deltaTime;
-        waterMat.SetFloat("_WaveHeight", height);
-    }
+    
 
    
 
