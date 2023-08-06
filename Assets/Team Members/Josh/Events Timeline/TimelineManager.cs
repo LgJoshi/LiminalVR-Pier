@@ -56,9 +56,10 @@ public class TimelineManager : MonoBehaviour
     private void NextEvent()
     {
         eventInt += 1;
-        if( eventInt >= eventObjects.Length )
+        if( eventInt < eventObjects.Length )
         {
             GameObject newEvent = Instantiate(eventObjects[eventInt]);
+            Debug.Log("new event in array:" + newEvent.name);
             timer = newEvent.GetComponent<PierEvent>().myDuration;
             timerActive = true;
         } else

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7084400414699753814}
   - component: {fileID: -6383634011585045789}
   m_Layer: 0
-  m_Name: PierEvent Example
+  m_Name: PierEvent Outro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 10
+  myDuration: 5
 --- !u!82 &-6383634011585045789
 AudioSource:
   m_ObjectHideFlags: 0
@@ -55,7 +55,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9612a425a50cc0a4a8c9d8c15931f7c6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

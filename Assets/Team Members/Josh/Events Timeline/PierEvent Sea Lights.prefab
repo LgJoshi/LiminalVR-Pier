@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6628264531626881534}
   - component: {fileID: 7084400414699753814}
   - component: {fileID: -6383634011585045789}
+  - component: {fileID: -6779326173771326363}
   m_Layer: 0
-  m_Name: PierEvent Example
+  m_Name: PierEvent Sea Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,7 +56,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 86c22d7e17e99214e9824902d0dcdacf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -141,3 +142,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6779326173771326363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622395389187175551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f629bb2509a0f2e4e856f01f34bd0344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seaLifeParticlesObject: {fileID: 7648686088793709568, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
+    type: 3}
