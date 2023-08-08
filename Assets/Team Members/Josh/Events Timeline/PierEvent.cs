@@ -15,7 +15,7 @@ public class PierEvent : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    /*
     void Update()
     {
         timer += Time.deltaTime;
@@ -24,4 +24,5 @@ public class PierEvent : MonoBehaviour
             Destroy(this);
         }
     }
+    */
 }

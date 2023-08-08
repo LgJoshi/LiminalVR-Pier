@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6628264531626881534}
   - component: {fileID: 7084400414699753814}
   - component: {fileID: -6383634011585045789}
+  - component: {fileID: 1559632617947744032}
   m_Layer: 0
   m_Name: PierEvent Outro
   m_TagString: Untagged
@@ -44,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 6
+  myDuration: 10
   isFollowingPlayer: 1
 --- !u!82 &-6383634011585045789
 AudioSource:
@@ -142,3 +143,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1559632617947744032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622395389187175551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5318e6b76d993bc4f886de942acddff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOutDelay: 6
+  fadeDuration: 4
+  fadeColour: {r: 1, g: 1, b: 1, a: 0}
