@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6628264531626881534}
   - component: {fileID: 7084400414699753814}
   m_Layer: 0
-  m_Name: PierEvent Example 1
+  m_Name: PierEvent Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 0
+  myDuration: 7
 --- !u!1001 &5716414703953107868
 PrefabInstance:
   m_ObjectHideFlags: 0

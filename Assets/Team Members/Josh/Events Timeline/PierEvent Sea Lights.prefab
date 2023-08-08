@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6628264531626881534}
   - component: {fileID: 7084400414699753814}
   - component: {fileID: -6383634011585045789}
-  - component: {fileID: -6779326173771326363}
+  - component: {fileID: 1815207946995645195}
   m_Layer: 0
   m_Name: PierEvent Sea Lights
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6622395389187175551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.528679, y: -70.74304, z: 225.44016}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 10
+  myDuration: 12
+  isFollowingPlayer: 0
 --- !u!82 &-6383634011585045789
 AudioSource:
   m_ObjectHideFlags: 0
@@ -142,7 +143,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-6779326173771326363
+--- !u!114 &1815207946995645195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,8 +152,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6622395389187175551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f629bb2509a0f2e4e856f01f34bd0344, type: 3}
+  m_Script: {fileID: 11500000, guid: c1a815ffa71262645a8ee40d879bfbdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   seaLifeParticlesObject: {fileID: 7648686088793709568, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
     type: 3}
+  particlesSpawnDelay: 5
+  moveDuration: 1
+  targetMoveY: 0.5
