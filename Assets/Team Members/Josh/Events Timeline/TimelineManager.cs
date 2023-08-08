@@ -18,6 +18,9 @@ public class TimelineManager : MonoBehaviour
     [SerializeField] GameObject[] eventObjects;
     [SerializeField] GameObject OutroObject;
 
+    [SerializeField] GameObject VRAvatar;
+    [SerializeField] GameObject Environment;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +54,13 @@ public class TimelineManager : MonoBehaviour
         GameObject newEvent = Instantiate(IntroObject);
         timer = newEvent.GetComponent<PierEvent>().myDuration;
         timerActive = true;
+        if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
+        {
+            newEvent.transform.parent = VRAvatar.transform;
+        } else
+        {
+            newEvent.transform.parent = Environment.transform;
+        }
     }
 
     private void NextEvent()
