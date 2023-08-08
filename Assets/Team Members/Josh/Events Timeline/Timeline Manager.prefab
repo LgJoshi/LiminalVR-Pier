@@ -66,6 +66,8 @@ MonoBehaviour:
     type: 3}
   eventObjects:
   - {fileID: 6622395389187175551, guid: 167bfd77f1553da4092aa6bf265d001b, type: 3}
+  - {fileID: 1325977508240115952, guid: fa07c98512d5cfa4e8be0f76d0a8ce42, type: 3}
+  - {fileID: 6622395389187175551, guid: 7501dceca6a99b249b89040163be7292, type: 3}
   OutroObject: {fileID: 6622395389187175551, guid: a217c7cd74170c942ac6c6b34ba18ed6,
     type: 3}
   VRAvatar: {fileID: 0}
