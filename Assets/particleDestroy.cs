@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroy : MonoBehaviour
+public class particleDestroy : MonoBehaviour
 {
+    public ParticleSystem _ps;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 5);
+        _ps = GetComponent<ParticleSystem>();
+        Destroy(); 
+
     }
 
     // Update is called once per frame
-    void Update()
+    void Destroy()
     {
-        
+        Destroy(gameObject);
     }
 }

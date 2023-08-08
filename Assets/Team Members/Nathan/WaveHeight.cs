@@ -40,7 +40,7 @@ public class WaveHeight : MonoBehaviour
         }
         if (increase == true)
         {
-            Invoke("decrease", 10);
+            Invoke("decrease", 4);
         }
 
 
