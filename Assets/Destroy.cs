@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
+    public ParticleSystem starsPS;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 5);
+        Instantiate(starsPS, transform.position, transform.rotation);
     }
 
     // Update is called once per frame

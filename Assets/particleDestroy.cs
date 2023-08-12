@@ -10,8 +10,8 @@ public class particleDestroy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _ps = GetComponent<ParticleSystem>();
-        Destroy(); 
+        Instantiate(_ps, transform.position, transform.rotation);
+        //Destroy(); 
 
     }
 

@@ -67,5 +67,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 883784819355117809, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: isFollowingPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: cullingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.a
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b459ea99b1303f84f9261bb0645b7d02, type: 3}
