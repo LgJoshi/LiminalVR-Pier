@@ -57,7 +57,8 @@ public class TimelineManager : MonoBehaviour
     {
         yield return new WaitForSeconds(introDelay);
 
-        GameObject newEvent = Instantiate(IntroObject);
+        GameObject newEvent = IntroObject;
+        newEvent.SetActive(true);
         timer = newEvent.GetComponent<PierEvent>().myDuration;
         timerActive = true;
         if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
@@ -77,12 +78,20 @@ public class TimelineManager : MonoBehaviour
         if( eventInt < eventObjects.Length )
         {
             GameObject newEvent = Instantiate(eventObjects[eventInt]);
+            newEvent.transform.position = this.transform.position;
             Debug.Log("new event in array:" + newEvent.name);
             timer = newEvent.GetComponent<PierEvent>().myDuration;
             timerActive = true;
+            if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
+            {
+                newEvent.transform.parent = VRAvatar.transform;
+            } else
+            {
+                newEvent.transform.parent = Environment.transform;
+            }
         } else
         {
-            GameObject newEvent = Instantiate(OutroObject);
+            OutroObject.SetActive(true);
         }
     }
 }

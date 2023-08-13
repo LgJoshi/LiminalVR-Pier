@@ -157,6 +157,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seaLifeParticlesObject: {fileID: 7648686088793709568, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
     type: 3}
-  particlesSpawnDelay: 13
+  particlesSpawnDelay: 8
   moveDuration: 1
   targetMoveY: 0.5

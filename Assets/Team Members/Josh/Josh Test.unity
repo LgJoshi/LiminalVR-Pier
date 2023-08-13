@@ -375,6 +375,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 389286676940360084, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_FadeOnStart
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22276a8657744e04cba8ad0a2caf4195, type: 3}
 --- !u!4 &141072768 stripped
@@ -1707,6 +1712,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2783701555235946693}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1157769986 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 780844812651652915, guid: 147dfa616e1018b4e90f70f35798429c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1115358095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1203421957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2413,6 +2424,12 @@ Transform:
   m_Father: {fileID: 1676988090}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1698069270 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 780844812337856818, guid: 147dfa616e1018b4e90f70f35798429c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1115358095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1745783305 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
@@ -2703,6 +2720,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1882488727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1889664893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1260162969970794165, guid: 22276a8657744e04cba8ad0a2caf4195,
+    type: 3}
+  m_PrefabInstance: {fileID: 141072767}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1896145410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2976,6 +2999,21 @@ PrefabInstance:
       propertyPath: Environment
       value: 
       objectReference: {fileID: 1680198833}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: centerEye
+      value: 
+      objectReference: {fileID: 1889664893}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: musicAudio
+      value: 
+      objectReference: {fileID: 1157769986}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: waterAudio
+      value: 
+      objectReference: {fileID: 1698069270}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9, type: 3}
 --- !u!1 &4851569462624911416
