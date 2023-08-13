@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 12
-  isFollowingPlayer: 0
+  myDuration: 40
+  isFollowingPlayer: 1
 --- !u!82 &-6383634011585045789
 AudioSource:
   m_ObjectHideFlags: 0
@@ -57,7 +57,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 86c22d7e17e99214e9824902d0dcdacf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c7a67490942defb4a83ced7529510aca, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -157,6 +157,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seaLifeParticlesObject: {fileID: 7648686088793709568, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
     type: 3}
-  particlesSpawnDelay: 5
+  particlesSpawnDelay: 13
   moveDuration: 1
   targetMoveY: 0.5

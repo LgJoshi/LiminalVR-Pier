@@ -21,13 +21,16 @@ public class TimelineManager : MonoBehaviour
     [SerializeField] GameObject VRAvatar;
     [SerializeField] GameObject Environment;
 
+    float introDelay = 4f;
+    float betweenDelay = 5f;
+
     // Start is called before the first frame update
     void Start()
     {
         //StartTimeline();
         timer = 0f;
 
-        StartEvents();
+        StartCoroutine(StartEvents());
     }
 
     // Update is called once per frame
@@ -39,7 +42,8 @@ public class TimelineManager : MonoBehaviour
             if( timer <= 0 )
             {
                 timerActive = false;
-                NextEvent();
+                Debug.Log("timer 0, now run next event couroutine");
+                StartCoroutine(NextEvent());
             }
         }
     }
@@ -49,8 +53,10 @@ public class TimelineManager : MonoBehaviour
         //myDirector.Play();
     }
 
-    private void StartEvents()
+    IEnumerator StartEvents()
     {
+        yield return new WaitForSeconds(introDelay);
+
         GameObject newEvent = Instantiate(IntroObject);
         timer = newEvent.GetComponent<PierEvent>().myDuration;
         timerActive = true;
@@ -63,8 +69,10 @@ public class TimelineManager : MonoBehaviour
         }
     }
 
-    private void NextEvent()
+    IEnumerator NextEvent()
     {
+        yield return new WaitForSeconds(betweenDelay);
+
         eventInt += 1;
         if( eventInt < eventObjects.Length )
         {

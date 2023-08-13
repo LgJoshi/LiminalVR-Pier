@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 7
+  myDuration: 30
   isFollowingPlayer: 1
 --- !u!82 &-6383634011585045789
 AudioSource:

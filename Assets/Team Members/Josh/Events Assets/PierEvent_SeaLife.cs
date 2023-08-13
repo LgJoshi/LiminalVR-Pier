@@ -6,7 +6,7 @@ public class PierEvent_SeaLife : MonoBehaviour
 {
     [SerializeField] GameObject seaLifeParticlesObject;
 
-    [SerializeField] float particlesSpawnDelay = 5;
+    [SerializeField] float particlesSpawnDelay = 13;
     [SerializeField] float moveDuration = 1f;
     [SerializeField] float targetMoveY = 0.5f;
 
