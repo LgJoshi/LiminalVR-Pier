@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PierEvent Stars 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2754125703407265942, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc9586c0f7b89a144a8b4e485d52b3f5, type: 3}
     - target: {fileID: 3886428637107619929, guid: b459ea99b1303f84f9261bb0645b7d02,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71,6 +76,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isFollowingPlayer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 883784819355117809, guid: b459ea99b1303f84f9261bb0645b7d02,
+        type: 3}
+      propertyPath: myDuration
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1605473901453187760, guid: b459ea99b1303f84f9261bb0645b7d02,
         type: 3}

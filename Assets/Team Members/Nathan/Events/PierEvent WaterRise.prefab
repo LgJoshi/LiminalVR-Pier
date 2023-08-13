@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bccb49e03a91d42b9f918f32d89f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDuration: 12
+  myDuration: 60
   isFollowingPlayer: 1
 --- !u!114 &-7241004001606744829
 MonoBehaviour:
@@ -74,7 +74,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 989b0871bc76866478b37381f861b0f8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 64020119e8336964aba8651914ad6620, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

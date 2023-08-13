@@ -22,25 +22,12 @@ public class WaveHeight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (increase == false)
-        {
-            height += increaseHeightRate * Time.deltaTime;
-            waterMat.SetFloat("_WaveHeight", height);
+        Invoke("increaseHeight", 12);
 
-
-
-            if (height >= stopHeight)
-            {
-                height = stopHeight;
-                increaseHeightRate = 0f;
-                
-                increase = true;
-            }
-           
-        }
+      
         if (increase == true)
         {
-            Invoke("decrease", 4);
+            Invoke("decrease", 20);
         }
 
 
@@ -57,7 +44,26 @@ public class WaveHeight : MonoBehaviour
             increaseHeightRate = 0f;
         }
     }
-    
+    void increaseHeight()
+    {
+        if (increase == false)
+        {
+            height += increaseHeightRate * Time.deltaTime;
+            waterMat.SetFloat("_WaveHeight", height);
+
+
+
+            if (height >= stopHeight)
+            {
+                height = stopHeight;
+                increaseHeightRate = 0f;
+
+                increase = true;
+            }
+
+        }
+        
+    }
 
     }
    
