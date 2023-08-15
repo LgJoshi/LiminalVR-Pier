@@ -35,13 +35,13 @@ public class PierEvent_Outro : MonoBehaviour
         fader.FadeTo(fadeColour, fadeDuration);
 
         var elapsedTime = 0f; //instantiate a float with a value of 0 for use as a timer.
-        var startingVolume1 = waterAudio.volume;
+        //var startingVolume1 = waterAudio.volume;
         var startingVolume2 = musicAudio.volume; 
 
         while( elapsedTime < fadeDuration )
         {
             elapsedTime += Time.deltaTime; // Count up
-            waterAudio.volume = Mathf.Lerp(startingVolume1, 0f, elapsedTime / fadeDuration);
+            //waterAudio.volume = Mathf.Lerp(startingVolume1, 0f, elapsedTime / fadeDuration);
             musicAudio.volume = Mathf.Lerp(startingVolume2, 0f, elapsedTime / fadeDuration);
             yield return new WaitForEndOfFrame(); // Tell the coroutine to wait for a frame to avoid completing this loop in a single frame.
         }

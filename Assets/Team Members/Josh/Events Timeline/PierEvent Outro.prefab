@@ -155,10 +155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5318e6b76d993bc4f886de942acddff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutDelay: 9
+  fadeOutDelay: 13
   fadeDuration: 10
-  fadeColour: {r: 0.8074493, g: 0.8467809, b: 0.8962264, a: 1}
-  sceneEndDelay: 10
+  fadeColour: {r: 0.71662515, g: 0.7354842, b: 0.8301887, a: 1}
+  sceneEndDelay: 6
   sceneEndDuration: 2
   centerEye: {fileID: 0}
   musicAudio: {fileID: 0}

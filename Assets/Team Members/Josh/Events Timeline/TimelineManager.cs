@@ -61,13 +61,13 @@ public class TimelineManager : MonoBehaviour
         newEvent.SetActive(true);
         timer = newEvent.GetComponent<PierEvent>().myDuration;
         timerActive = true;
-        if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
+        /*if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
         {
             newEvent.transform.parent = VRAvatar.transform;
         } else
         {
             newEvent.transform.parent = Environment.transform;
-        }
+        }*/
     }
 
     IEnumerator NextEvent()
@@ -77,18 +77,19 @@ public class TimelineManager : MonoBehaviour
         eventInt += 1;
         if( eventInt < eventObjects.Length )
         {
-            GameObject newEvent = Instantiate(eventObjects[eventInt]);
+            GameObject newEvent = eventObjects[eventInt];
+            newEvent.SetActive(true);
             newEvent.transform.position = this.transform.position;
             Debug.Log("new event in array:" + newEvent.name);
             timer = newEvent.GetComponent<PierEvent>().myDuration;
             timerActive = true;
-            if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
+            /*if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
             {
                 newEvent.transform.parent = VRAvatar.transform;
             } else
             {
                 newEvent.transform.parent = Environment.transform;
-            }
+            }*/
         } else
         {
             OutroObject.SetActive(true);
