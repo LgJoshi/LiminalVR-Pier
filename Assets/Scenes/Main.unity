@@ -165,6 +165,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fog Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4396340155745762790, guid: ad3d245f3b530354a88c958747f534a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4396340155745762791, guid: ad3d245f3b530354a88c958747f534a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1601,6 +1606,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 669308745}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &732290582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1260162969970794165, guid: 22276a8657744e04cba8ad0a2caf4195,
+    type: 3}
+  m_PrefabInstance: {fileID: 141072767}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &768106502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1985,6 +1996,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8810005730026642380, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
     type: 3}
   m_PrefabInstance: {fileID: 891018238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &930788458 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 780844812337856818, guid: 147dfa616e1018b4e90f70f35798429c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1115358095}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &945061588
 PrefabInstance:
@@ -2636,6 +2653,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8810005730026642380, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
     type: 3}
   m_PrefabInstance: {fileID: 1205747347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1273281671 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 780844812651652915, guid: 147dfa616e1018b4e90f70f35798429c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1115358095}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1363898426
 PrefabInstance:
@@ -4000,6 +4023,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1896145410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1952228402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1652526579587227059, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2783701555235946693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1981033028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4311,6 +4340,26 @@ PrefabInstance:
       propertyPath: Environment
       value: 
       objectReference: {fileID: 1680198833}
+    - target: {fileID: 8782811204972731714, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: IntroObject
+      value: 
+      objectReference: {fileID: 1952228402}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: centerEye
+      value: 
+      objectReference: {fileID: 732290582}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: waterAudio
+      value: 
+      objectReference: {fileID: 930788458}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: musicAudio
+      value: 
+      objectReference: {fileID: 1273281671}
     - target: {fileID: 1322095698004916260, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
         type: 3}
       propertyPath: m_LocalPosition.y
