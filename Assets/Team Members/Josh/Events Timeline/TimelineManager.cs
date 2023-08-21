@@ -36,6 +36,7 @@ public class TimelineManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if( timerActive )
         {
             timer -= Time.deltaTime;
@@ -43,9 +44,9 @@ public class TimelineManager : MonoBehaviour
             {
                 timerActive = false;
                 Debug.Log("timer 0, now run next event couroutine");
-                StartCoroutine(NextEvent());
+                
             }
-        }
+        }*/
     }
 
     private void StartTimeline()
@@ -60,7 +61,8 @@ public class TimelineManager : MonoBehaviour
         GameObject newEvent = IntroObject;
         newEvent.SetActive(true);
         timer = newEvent.GetComponent<PierEvent>().myDuration;
-        timerActive = true;
+
+        StartCoroutine(NextEvent(newEvent.GetComponent<PierEvent>().myDuration));
         /*if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
         {
             newEvent.transform.parent = VRAvatar.transform;
@@ -70,8 +72,9 @@ public class TimelineManager : MonoBehaviour
         }*/
     }
 
-    IEnumerator NextEvent()
+    IEnumerator NextEvent(float inputDuration)
     {
+        yield return new WaitForSeconds(inputDuration);
         yield return new WaitForSeconds(betweenDelay);
 
         eventInt += 1;
@@ -81,8 +84,8 @@ public class TimelineManager : MonoBehaviour
             newEvent.SetActive(true);
             newEvent.transform.position = this.transform.position;
             Debug.Log("new event in array:" + newEvent.name);
-            timer = newEvent.GetComponent<PierEvent>().myDuration;
-            timerActive = true;
+
+            StartCoroutine(NextEvent(newEvent.GetComponent<PierEvent>().myDuration));
             /*if( newEvent.GetComponent<PierEvent>().isFollowingPlayer )
             {
                 newEvent.transform.parent = VRAvatar.transform;
@@ -92,6 +95,7 @@ public class TimelineManager : MonoBehaviour
             }*/
         } else
         {
+
             OutroObject.SetActive(true);
         }
     }

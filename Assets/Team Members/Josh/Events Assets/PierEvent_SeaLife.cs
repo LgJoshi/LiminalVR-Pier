@@ -43,13 +43,13 @@ public class PierEvent_SeaLife : MonoBehaviour
         yield return new WaitForSeconds(particlesSpawnDelay);
 
         GameObject newObject = Instantiate(seaLifeParticlesObject);
-        newObject.transform.position = this.transform.position + new Vector3(-2.5f, 2f, 10);
+        newObject.transform.position = this.transform.position + new Vector3(-4f, 2f, 10);
         particlesLeft = newObject;
 
         newObject = Instantiate(seaLifeParticlesObject);
-        newObject.transform.position = this.transform.position + new Vector3(2.5f, 2f, 10);
+        newObject.transform.position = this.transform.position + new Vector3(4f, 2f, 10);
         Vector3 rot = newObject.transform.rotation.eulerAngles;
-        rot = new Vector3(rot.x, rot.y, rot.z + 180);
+        rot = new Vector3(rot.x, rot.y, rot.z + 122);
         newObject.transform.rotation = Quaternion.Euler(rot);
         particlesRight = newObject;
 
