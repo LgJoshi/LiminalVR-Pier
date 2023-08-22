@@ -1331,12 +1331,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 749775145}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &858164320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1652526579587227059, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
-    type: 3}
-  m_PrefabInstance: {fileID: 2783701555235946693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &891018238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2322,6 +2316,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1507106068}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1553080182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1553080183}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1553080183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553080182}
+  m_LocalRotation: {x: 0.7181815, y: -0.024617989, z: 0.068625346, w: 0.69202596}
+  m_LocalPosition: {x: -16.36, y: 6.44, z: 3.41}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1676988090}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 85.851006, y: 116.94201, z: 124.508}
 --- !u!1 &1565365882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2460,15 +2484,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sea Life Particle System (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7648686088793709568, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.92
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.854
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
@@ -2478,22 +2507,22 @@ PrefabInstance:
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.34056658
+      value: -0.20299684
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.619689
+      value: 0.6773421
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.619689
+      value: 0.6773421
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.34056658
+      value: 0.20299684
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
@@ -2513,7 +2542,7 @@ PrefabInstance:
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 122.41601
+      value: 146.63301
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b624d8e7dab1904cb3e6da3e2af5999, type: 3}
@@ -2598,6 +2627,7 @@ Transform:
   - {fileID: 56846355}
   - {fileID: 1680198834}
   - {fileID: 1115358096}
+  - {fileID: 1553080183}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3048,6 +3078,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1896145410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1986152192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1315664574069407141, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2783701555235946693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2112550167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3159,7 +3195,7 @@ PrefabInstance:
     - target: {fileID: 3125034972357765291, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.064
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3125034972357765291, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
         type: 3}
@@ -3220,7 +3256,7 @@ PrefabInstance:
         type: 3}
       propertyPath: IntroObject
       value: 
-      objectReference: {fileID: 858164320}
+      objectReference: {fileID: 1986152192}
     - target: {fileID: 8782811204972731714, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
         type: 3}
       propertyPath: eventObjects.Array.data[0]
@@ -8137,15 +8173,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sea Life Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 7648686088793709568, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.854
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
         type: 3}

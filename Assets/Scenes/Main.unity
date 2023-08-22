@@ -4023,12 +4023,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1896145410}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1952228402 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1652526579587227059, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
-    type: 3}
-  m_PrefabInstance: {fileID: 2783701555235946693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1981033028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4340,11 +4334,6 @@ PrefabInstance:
       propertyPath: Environment
       value: 
       objectReference: {fileID: 1680198833}
-    - target: {fileID: 8782811204972731714, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
-        type: 3}
-      propertyPath: IntroObject
-      value: 
-      objectReference: {fileID: 1952228402}
     - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
         type: 3}
       propertyPath: centerEye
@@ -4360,10 +4349,30 @@ PrefabInstance:
       propertyPath: musicAudio
       value: 
       objectReference: {fileID: 1273281671}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: fadeColour.r
+      value: 0.6117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: fadeColour.g
+      value: 0.64177465
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868538074787871308, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: fadeColour.b
+      value: 0.7176471
+      objectReference: {fileID: 0}
     - target: {fileID: 1322095698004916260, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315664574069407141, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bef2c78bfe1f6e44aa62d8ef07e6a5b9, type: 3}

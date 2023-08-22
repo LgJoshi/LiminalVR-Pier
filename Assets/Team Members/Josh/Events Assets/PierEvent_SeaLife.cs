@@ -18,6 +18,10 @@ public class PierEvent_SeaLife : MonoBehaviour
     GameObject particlesLeft;
     GameObject particlesRight;
 
+    [SerializeField] ParticleSystem lightsLeft;
+    [SerializeField] ParticleSystem lightsRight;
+
+
     void Start()
     {
         sequenceNum = 0;
@@ -31,32 +35,36 @@ public class PierEvent_SeaLife : MonoBehaviour
     private void Update()
     {
 
-        if( moving && particlesLeft != null && particlesRight != null )
+        /*if( moving && particlesLeft != null && particlesRight != null )
         {
             particlesLeft.transform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
             particlesRight.transform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
-        }
+        }*/
     }
 
     IEnumerator SpawnLights()
     {
         yield return new WaitForSeconds(particlesSpawnDelay);
 
+        lightsLeft.Play();
+        lightsRight.Play();
+
+        /*
         GameObject newObject = Instantiate(seaLifeParticlesObject);
-        newObject.transform.position = this.transform.position + new Vector3(-4f, 2f, 10);
+        newObject.transform.position = this.transform.position + new Vector3(-4f, 0.6f, 10);
         particlesLeft = newObject;
 
         newObject = Instantiate(seaLifeParticlesObject);
-        newObject.transform.position = this.transform.position + new Vector3(4f, 2f, 10);
+        newObject.transform.position = this.transform.position + new Vector3(4f, 0.6f, 10);
         Vector3 rot = newObject.transform.rotation.eulerAngles;
-        rot = new Vector3(rot.x, rot.y, rot.z + 122);
+        rot = new Vector3(rot.x, rot.y, rot.z + 146);
         newObject.transform.rotation = Quaternion.Euler(rot);
-        particlesRight = newObject;
+        particlesRight = newObject;*/
 
-        StartCoroutine(StartStopMove(targetMoveY));
+        //StartCoroutine(StartStopMove(targetMoveY));
     }
 
-    IEnumerator StartStopMove(float moveInput)
+    /*IEnumerator StartStopMove(float moveInput)
     {
         moveSpeed = (moveInput - particlesLeft.transform.position.y ) / moveDuration;
         moving = true;
@@ -65,5 +73,5 @@ public class PierEvent_SeaLife : MonoBehaviour
 
         moving = false;
         moveSpeed = 0f;
-    }
+    }*/
 }
