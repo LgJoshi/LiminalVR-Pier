@@ -236,6 +236,11 @@ PrefabInstance:
       propertyPath: ShapeModule.arc.value
       value: 60.69
       objectReference: {fileID: 0}
+    - target: {fileID: 7648686088793709570, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 33
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b624d8e7dab1904cb3e6da3e2af5999, type: 3}
 --- !u!4 &1027687711178567025 stripped

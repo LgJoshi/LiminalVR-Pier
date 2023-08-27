@@ -1908,7 +1908,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1565365883}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
@@ -1923,7 +1923,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16999996
+      value: -1.234
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
@@ -1933,7 +1933,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
@@ -1953,7 +1953,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
         type: 3}
@@ -2271,6 +2271,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8810005730026642380, guid: 7bdbfbf72f8e249409eab72a1e20f3ea,
     type: 3}
   m_PrefabInstance: {fileID: 810242039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &855849590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9658e3403cb1d3840b1ff579bd11a078,
+    type: 3}
+  m_PrefabInstance: {fileID: 763584174}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &891018238
 PrefabInstance:
@@ -3703,6 +3709,7 @@ Transform:
   - {fileID: 377178857}
   - {fileID: 1419157009}
   - {fileID: 1730616497}
+  - {fileID: 855849590}
   m_Father: {fileID: 141072768}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
