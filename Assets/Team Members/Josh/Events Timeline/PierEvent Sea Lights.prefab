@@ -163,7 +163,7 @@ MonoBehaviour:
   moveDuration: 1
   targetMoveY: 0.5
   lightsLeft: {fileID: 1027687711178567024}
-  lightsRight: {fileID: 0}
+  lightsRight: {fileID: 2157064984947905252}
 --- !u!1001 &7234614980204589426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -322,6 +322,12 @@ PrefabInstance:
 --- !u!4 &2157064984947905253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7648686088793709571, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
+    type: 3}
+  m_PrefabInstance: {fileID: 8631984683795975910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2157064984947905252 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7648686088793709570, guid: 4b624d8e7dab1904cb3e6da3e2af5999,
     type: 3}
   m_PrefabInstance: {fileID: 8631984683795975910}
   m_PrefabAsset: {fileID: 0}
